@@ -1,0 +1,145 @@
+Circuit: * C:\users\chris\Projects\eurorack\VCO\hardware\ltspice\vco.asc
+
+WARNING: Less than two connections to node SQUARE.  This node is used by A1.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 6.07244%
+Source Step = 6.10204%
+Source Step = 6.13163%
+Source Step = 6.16122%
+Source Step = 6.19081%
+vernier = 0.00146484
+Source Step = 6.22337%
+Source Step = 6.26776%
+Source Step = 6.31214%
+Source Step = 6.35653%
+Source Step = 6.40092%
+vernier = 0.00219727
+Source Step = 6.44753%
+Source Step = 6.51412%
+Source Step = 6.5807%
+Source Step = 6.64728%
+Source Step = 6.71387%
+Source Step = 6.78045%
+vernier = 0.0032959
+Source Step = 6.88033%
+Source Step = 6.9802%
+Source Step = 7.08008%
+Source Step = 7.17995%
+Source Step = 7.27983%
+vernier = 0.00494385
+Source Step = 7.42465%
+Source Step = 7.57446%
+Source Step = 7.72428%
+Source Step = 7.87409%
+Source Step = 8.0239%
+vernier = 0.00741577
+Source Step = 8.23364%
+Source Step = 8.45836%
+Source Step = 8.68308%
+Source Step = 8.9078%
+Source Step = 9.13252%
+vernier = 0.0111237
+Source Step = 9.4359%
+Source Step = 9.77298%
+Source Step = 10.1101%
+Source Step = 10.4471%
+Source Step = 10.7842%
+vernier = 0.0166855
+Source Step = 11.2224%
+Source Step = 11.728%
+Source Step = 12.2337%
+Source Step = 12.7393%
+Source Step = 13.2449%
+vernier = 0.0250282
+Source Step = 13.8769%
+Source Step = 14.6354%
+Source Step = 15.3938%
+Source Step = 16.1522%
+Source Step = 16.9107%
+vernier = 0.0375423
+Source Step = 17.8208%
+Source Step = 18.9584%
+Source Step = 20.0961%
+Source Step = 21.2337%
+Source Step = 22.3714%
+vernier = 0.0563135
+Source Step = 23.6797%
+Source Step = 25.3861%
+Source Step = 27.0926%
+Source Step = 28.7991%
+Source Step = 30.5055%
+vernier = 0.0844703
+Source Step = 32.3827%
+Source Step = 34.9424%
+Source Step = 37.5021%
+Source Step = 40.0618%
+Source Step = 42.6215%
+vernier = 0.126705
+Source Step = 45.3092%
+Source Step = 49.1487%
+Source Step = 52.9883%
+Source Step = 56.8278%
+Source Step = 60.6674%
+Source Step = 64.507%
+vernier = 0.190058
+Source Step = 70.2663%
+Source Step = 76.0256%
+Source Step = 81.785%
+Source Step = 87.5443%
+Source Step = 91.0089%
+Source Step = 91.0989%
+Source Step = 91.1889%
+Source Step = 91.2789%
+Source Step = 91.3689%
+Source Step = 91.4588%
+Source Step = 91.5488%
+Source Step = 91.6388%
+Source Step = 91.7288%
+Source Step = 91.8188%
+Source Step = 91.9088%
+Source Step = 91.9988%
+Source Step = 92.0888%
+Source Step = 92.1788%
+Source Step = 92.2688%
+Source Step = 92.3587%
+Source Step = 92.4487%
+Source Step = 92.5387%
+Trouble finding operating point....skipping operating point for Transient analysis.
+
+Date: Thu Apr 16 21:13:59 2026
+Total elapsed time: 61.534 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 17924
+traniter = 0
+tranpoints = 1
+accept = 1
+rejected = 0
+matrix size = 244
+fillins = 6660
+solver = Normal
+
