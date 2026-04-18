@@ -3817,6 +3817,18 @@
 		(uuid "2bf2513d-9216-4c12-8661-dc0fc879a7e9")
 	)
 	(rectangle
+		(start 15.24 144.78)
+		(end 49.53 191.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "44025993-9472-40b0-b07e-fc9fb9a7be7d")
+	)
+	(rectangle
 		(start 15.24 63.5)
 		(end 49.53 105.41)
 		(stroke
@@ -3980,6 +3992,17 @@
 			(justify left)
 		)
 		(uuid "16ac8023-6734-41b4-88e6-20502cac7c85")
+	)
+	(text "PITCH KNOB"
+		(exclude_from_sim no)
+		(at 15.748 147.574 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "213d222d-2a96-4aff-a8e4-79a253020c8b")
 	)
 	(text "FINE TUNE"
 		(exclude_from_sim no)
@@ -4328,6 +4351,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "495f334b-cee4-4a27-9c3c-dd7f3c1b9201")
+	)
+	(junction
+		(at 52.07 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c2a7a2-96ab-4767-95ea-905ec69a19d9")
 	)
 	(junction
 		(at 387.35 39.37)
@@ -4781,6 +4810,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 165.1) (xy 25.4 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05fbed52-6346-4e03-9f3b-e4ee5bf3d27f")
+	)
+	(wire
+		(pts
 			(xy 252.73 184.15) (xy 264.16 184.15)
 		)
 		(stroke
@@ -4988,6 +5027,16 @@
 			(type default)
 		)
 		(uuid "1c39b436-6a79-4006-888c-c144d1b31f97")
+	)
+	(wire
+		(pts
+			(xy 52.07 138.43) (xy 52.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf9cd3e-52f9-42b7-86ba-f3be0d9476cc")
 	)
 	(wire
 		(pts
@@ -5381,6 +5430,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 182.88) (xy 25.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408ff46e-e7e3-413e-b8ed-e3ed3b30fb41")
+	)
+	(wire
+		(pts
 			(xy 147.32 48.26) (xy 147.32 77.47)
 		)
 		(stroke
@@ -5518,6 +5577,16 @@
 			(type default)
 		)
 		(uuid "4cbfa0a1-c54e-4005-a571-774969871d25")
+	)
+	(wire
+		(pts
+			(xy 25.4 156.21) (xy 25.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d76db23-fb49-47d9-9e57-d92a888898eb")
 	)
 	(wire
 		(pts
@@ -5668,6 +5737,16 @@
 			(type default)
 		)
 		(uuid "57d24b7f-6f65-4404-a1cc-f31a11b444f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 170.18) (xy 39.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5844aafd-7491-4a57-8560-0963b7f71186")
 	)
 	(wire
 		(pts
@@ -6011,6 +6090,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 173.99) (xy 25.4 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6e7ac1-700b-4e69-8613-0e4b1476a498")
+	)
+	(wire
+		(pts
 			(xy 29.21 82.55) (xy 30.48 82.55)
 		)
 		(stroke
@@ -6138,6 +6227,16 @@
 			(type default)
 		)
 		(uuid "8a14580e-c35c-484c-92d0-79353a69624a")
+	)
+	(wire
+		(pts
+			(xy 52.07 170.18) (xy 46.99 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6c7ab8-f833-4873-bb07-05ee4eb1b5ae")
 	)
 	(wire
 		(pts
@@ -6698,6 +6797,16 @@
 			(type default)
 		)
 		(uuid "d602d3e2-fb72-4d59-ac53-7893b0089cf7")
+	)
+	(wire
+		(pts
+			(xy 29.21 170.18) (xy 30.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c9d658-98aa-47c3-a4c6-1c7d7a424bb8")
 	)
 	(polyline
 		(pts
@@ -13527,7 +13636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RK097:Potentiometer_Alps_RK097_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical"
 			(at 167.64 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14219,7 +14328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RK097:Potentiometer_Alps_RK097_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical"
 			(at 43.18 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15462,6 +15571,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 43.18 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6faaaa1b-c85b-400a-87c3-20dd9f35ebb3")
+		(property "Reference" "TH5"
+			(at 43.18 165.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k NTC"
+			(at 43.18 167.386 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 41.91 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 43.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f10517b7-0fca-4429-bb0f-0255d3a7fd4f")
+		)
+		(pin "1"
+			(uuid "56496125-c5f7-4a82-9259-877f621f3031")
+		)
+		(instances
+			(project "vco"
+				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
+					(reference "TH5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 134.62 270)
 		(unit 1)
@@ -16010,6 +16198,87 @@
 				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
 					(reference "U1")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 25.4 179.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78e789ac-a277-41fd-b602-a1bffc71b364")
+		(property "Reference" "R55"
+			(at 25.4 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 23.114 181.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 27.178 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 25.4 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c73d7a8e-3c01-4345-b9de-9acf4e79c165")
+		)
+		(pin "1"
+			(uuid "9f3bb04f-3d49-4443-80be-6d026981b9e4")
+		)
+		(instances
+			(project "vco"
+				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
+					(reference "R55")
+					(unit 1)
 				)
 			)
 		)
@@ -17257,6 +17526,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 25.4 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9164a019-3ffa-4d6b-9ecb-ddb605ba7ee9")
+		(property "Reference" "RV8"
+			(at 25.4 168.148 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 23.114 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical"
+			(at 25.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 25.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 25.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 25.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 25.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d46c87f6-803e-472f-a9ea-0d6c89962732")
+		)
+		(pin "3"
+			(uuid "3f21836e-9221-4854-bac1-14de29914bc7")
+		)
+		(pin "1"
+			(uuid "19572504-e1e8-4268-8cfc-10e3f7e01047")
+		)
+		(instances
+			(project "vco"
+				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 190.5 90)
 		(unit 1)
@@ -17408,6 +17794,84 @@
 			(project "vco"
 				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 25.4 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9979ffe9-0cc3-41cb-bb79-c221fe307984")
+		(property "Reference" "#PWR050"
+			(at 25.4 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 25.4 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 25.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59bd898e-7882-43fa-a4c6-ac08e4f9e182")
+		)
+		(instances
+			(project "vco"
+				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -19793,6 +20257,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 34.29 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cec1c491-ced9-4819-8072-c044fc511b03")
+		(property "Reference" "R56"
+			(at 34.29 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 34.29 168.148 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 34.29 171.958 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56548ea3-e202-4e26-992a-b0d57c9fb5af")
+		)
+		(pin "1"
+			(uuid "9a2a8678-6393-453a-958f-65dd00edbf22")
+		)
+		(instances
+			(project "vco"
+				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 179.07 186.69 90)
 		(mirror x)
@@ -20517,6 +21060,87 @@
 			(project "vco"
 				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 25.4 161.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dee49343-db96-486b-8db3-c7ff02367d1d")
+		(property "Reference" "R54"
+			(at 25.4 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 23.114 163.576 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 27.178 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 25.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab98e7df-9e76-4c2f-aff6-47998b0c991e")
+		)
+		(pin "1"
+			(uuid "f8759ee0-0e55-424f-8caf-c91557e93266")
+		)
+		(instances
+			(project "vco"
+				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -21955,6 +22579,84 @@
 			(project "vco"
 				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 25.4 184.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f572c181-8722-49ec-abf6-22d8002337ea")
+		(property "Reference" "#PWR051"
+			(at 25.4 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-12V"
+			(at 25.4 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 25.4 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bb3eadb-8c36-4af9-9351-2ee0a49cd8f2")
+		)
+		(instances
+			(project "vco"
+				(path "/1570e210-ef16-452b-94f3-63c323c8b7d0"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
