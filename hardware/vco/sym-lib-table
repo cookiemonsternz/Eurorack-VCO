@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TC7660") (type "KiCad") (uri "${KIPRJMOD}/lib/TC7660/TC7660.kicad_sym") (options "") (descr ""))
+)
