@@ -39,8 +39,8 @@ Same thing with the sine or triangle output, just adjust the `tri off` trimpot.
 I've included the simulations I created on LTSpice; VCO contains the full circuit, PWM just the pwm section.
 
 ## Renders
-![Render 1](./hardware/cad/Render/render-1.png)
-![Render 2](./hardware/cad/Render/render-2.png)
+![Render 1](./hardware/cad/render/render-1.png)
+![Render 2](./hardware/cad/render/render-2.png)
 ![Board Front](https://cdn.hackclub.com/019da928-bda6-71b1-8f1b-ab3c4645d25c/paste-1776659510915.png)
 ![Board Back](https://cdn.hackclub.com/019da927-d71a-7564-bdd0-9c785b5fbdf1/paste-1776659450720.png)
 
