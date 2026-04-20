@@ -115,6 +115,7 @@ Heres the links to the CAD source, Onshape:
         - **lib/** - External libraries
         - **production/** - Production files (Gerber, etc.)
 - **journals/**
+- **zine/** - Zine page :)
 
 ## References
 Circuit design influenced by:
