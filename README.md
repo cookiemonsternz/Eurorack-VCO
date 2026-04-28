@@ -50,50 +50,49 @@ I've included the simulations I created on LTSpice; VCO contains the full circui
 
 ## BOM
 _Needed is how many I personally need :)_
-| Part                          | Quantity | Needed | Source     | Link                                                  | Lot / Min Amount | Unit  | Net   | Running |
-|-------------------------------|----------|--------|------------|-------------------------------------------------------|------------------|-------|-------|---------|
-| 10n Capacitor                 | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C20415578.html    | 10               | NA    | NA    | $0.00   |
-| 100n Capacitor                | 7        | 0      | LCSC       | https://www.lcsc.com/product-detail/C49002969.html    | 10               | NA    | NA    | $0.00   |
-| 10u Capacitor                 | 4        | 0      | LCSC       | https://www.lcsc.com/product-detail/C49002971.html    | 5                | NA    | NA    | $0.00   |
-| 22u Capacitor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C18214342.html    | 20               | NA    | NA    | $0.00   |
-| 100k Resistor                 | 15       | 0      | LCSC       | https://www.lcsc.com/product-detail/C2843019.html     | 100              | NA    | NA    | $0.00   |
-| 10k Resistor                  | 7        | 0      | LCSC       | https://www.lcsc.com/product-detail/C2903232.html     | 100              | NA    | NA    | $0.00   |
-| 1k Resistor                   | 6        | 0      | LCSC       | https://www.lcsc.com/product-detail/C2903245.html     | 100              | NA    | NA    | $0.00   |
-| 1M Resistor                   | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C2903250.html     | 100              | NA    | NA    | $0.00   |
-| 47k Resistor                  | 3        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1364438.html     | 100              | NA    | NA    | $0.00   |
-| 68k Resistor                  | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1364508.html     | 100              | NA    | NA    | $0.00   |
-| 14k Resistor                  | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1369251.html     | 100              | NA    | NA    | $0.00   |
-| 20k Resistor                  | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119353.html      | 100              | NA    | NA    | $0.00   |
-| 200r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C714576.html      | 100              | NA    | NA    | $0.00   |
-| 2k Resistor                   | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119330.html      | 100              | NA    | NA    | $0.00   |
-| 100r Resistor                 | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1366145.html     | 100              | NA    | NA    | $0.00   |
-| 33r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C713968.html      | 100              | NA    | NA    | $0.00   |
-| 82r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119302.html      | 100              | NA    | NA    | $0.00   |
-| 470r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C129899.html      | 50               | NA    | NA    | $0.00   |
-| 47r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119296.html      | 50               | NA    | NA    | $0.00   |
-| 330r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C713986.html      | 100              | NA    | NA    | $0.00   |
-| 30r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C18724276.html    | 50               | NA    | NA    | $0.00   |
-| 120r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C173141.html      | 50               | NA    | NA    | $0.00   |
-| 39r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119294.html      | 50               | NA    | NA    | $0.00   |
-| 6.8k Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C3397534.html     | 50               | NA    | NA    | $0.00   |
-| BC557B                        | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C512874.html      | 5                | NA    | NA    | $0.00   |
-| BC547B                        | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C900798.html      | 5                | NA    | NA    | $0.00   |
-| Diode (1N4148)                | 15       | 15     | LCSC       | https://www.lcsc.com/product-detail/C402212.html      | 50               | $0.47 | $0.47 | $0.47   |
-| 3362P 1k Trimpot              | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C118947.html      | 5                | $0.72 | $0.72 | $1.19   |
-| 3362P 10k Trimpot             | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C118956.html      | 5                | $0.82 | $0.82 | $2.01   |
-| 3362P 100k Trimpot            | 3        | 3      | LCSC       | https://www.lcsc.com/product-detail/C118966.html      | 5                | $0.77 | $0.77 | $2.78   |
-| RK097 1M Vertical Pot         | 1        | 0      | Aliexpress | https://www.aliexpress.com/item/1005007278123055.html | 5                | NA    | NA    | $2.78   |
-| RK097 100k Vertical Pot       | 2        | 0      | Aliexpress | https://www.aliexpress.com/item/1005007278123055.html | 5                | NA    | NA    | $2.78   |
-| 10k NTC Thermistor            | 5        | 5      | LCSC       | https://www.lcsc.com/product-detail/C13879.html       | 10               | $0.44 | $0.44 | $3.22   |
-| TL074                         | 3        | 3      | LCSC       | https://www.lcsc.com/product-detail/C133542.html      | 1                | $0.69 | $2.08 | $5.30   |
-| AMS1117-2.5 SOT223            | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C12087.html       | 5                | $0.26 | $1.29 | $6.59   |
-| TC7660                        | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C640848.html      | 1                | $1.90 | $1.90 | $8.49   |
-| PJ301F Audio Jack             | 7        | 7      | Aliexpress | https://www.aliexpress.com/item/1005007344185064.html | 10               | $3.66 | $3.66 | $12.15  |
-| 2x8 2.54mm IDC                | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C7430313.html     | 5                | $0.08 | $0.42 | $12.57  |
-| Aluminium Plate (100x200x2mm) | 1        | 1      | Aliexpress | www.aliexpress.com/item/1005007160296738.html         | 1                | $6.23 | $6.23 | $18.80  |
-| M3x18mm Bolt                  | 1        | 0      | Aliexpress | https://www.aliexpress.com/item/32810852732.html      | 50               | NA    | NA    | $18.80  |
-| M3 Hex Nut                    | 1        | 0      | Aliexpress | https://www.aliexpress.com/item/1005007593861199.html | 50               | NA    | NA    | $18.80  |
-
+| Part                          | Quantity | Needed | Source     | Link                                                  | Lot / Min Amount | Unit  | Net   | Running | Total Incl. Unneeded |
+|-------------------------------|----------|--------|------------|-------------------------------------------------------|------------------|-------|-------|---------|----------------------|
+| 10n Capacitor                 | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C20415578.html    | 10               | $0.59 | NA    | $0.00   | $0.59                |
+| 100n Capacitor                | 7        | 0      | LCSC       | https://www.lcsc.com/product-detail/C49002969.html    | 10               | $0.41 | NA    | $0.00   | $1.00                |
+| 10u Capacitor                 | 4        | 0      | LCSC       | https://www.lcsc.com/product-detail/C49002971.html    | 5                | $0.81 | NA    | $0.00   | $1.81                |
+| 22u Capacitor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C18214342.html    | 20               | $0.85 | NA    | $0.00   | $2.66                |
+| 100k Resistor                 | 15       | 0      | LCSC       | https://www.lcsc.com/product-detail/C2843019.html     | 100              | $0.82 | NA    | $0.00   | $3.48                |
+| 10k Resistor                  | 7        | 0      | LCSC       | https://www.lcsc.com/product-detail/C2903232.html     | 100              | $0.68 | NA    | $0.00   | $4.16                |
+| 1k Resistor                   | 6        | 0      | LCSC       | https://www.lcsc.com/product-detail/C2903245.html     | 100              | $0.68 | NA    | $0.00   | $4.84                |
+| 1M Resistor                   | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C2903250.html     | 100              | $0.79 | NA    | $0.00   | $5.63                |
+| 47k Resistor                  | 3        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1364438.html     | 100              | $0.52 | NA    | $0.00   | $6.15                |
+| 68k Resistor                  | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1364508.html     | 100              | $0.55 | NA    | $0.00   | $6.70                |
+| 14k Resistor                  | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1369251.html     | 100              | $0.87 | NA    | $0.00   | $7.57                |
+| 20k Resistor                  | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119353.html      | 50               | $0.57 | NA    | $0.00   | $8.14                |
+| 200r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C714576.html      | 20               | $0.68 | NA    | $0.00   | $8.82                |
+| 2k Resistor                   | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119330.html      | 50               | $0.52 | NA    | $0.00   | $9.34                |
+| 100r Resistor                 | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C1366145.html     | 10               | $0.57 | NA    | $0.00   | $9.91                |
+| 33r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C713968.html      | 100              | $0.70 | NA    | $0.00   | $10.61               |
+| 82r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119302.html      | 50               | $0.50 | NA    | $0.00   | $11.11               |
+| 470r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C129899.html      | 50               | $0.54 | NA    | $0.00   | $11.65               |
+| 47r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119296.html      | 50               | $0.57 | NA    | $0.00   | $12.22               |
+| 330r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C713986.html      | 100              | $0.75 | NA    | $0.00   | $12.97               |
+| 30r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C18724276.html    | 50               | $0.51 | NA    | $0.00   | $13.48               |
+| 120r Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C173141.html      | 50               | $1.10 | NA    | $0.00   | $14.58               |
+| 39r Resistor                  | 2        | 0      | LCSC       | https://www.lcsc.com/product-detail/C119294.html      | 50               | $0.53 | NA    | $0.00   | $15.11               |
+| 6.8k Resistor                 | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C3397534.html     | 50               | $0.80 | NA    | $0.00   | $15.91               |
+| BC557B                        | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C512874.html      | 5                | $0.43 | NA    | $0.00   | $16.34               |
+| BC547B                        | 1        | 0      | LCSC       | https://www.lcsc.com/product-detail/C900798.html      | 5                | $0.42 | NA    | $0.00   | $16.76               |
+| Diode (1N4148)                | 15       | 15     | LCSC       | https://www.lcsc.com/product-detail/C402212.html      | 50               | $0.47 | $0.47 | $0.47   | $17.23               |
+| 3362P 1k Trimpot              | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C118947.html      | 5                | $0.72 | $0.72 | $1.19   | $17.95               |
+| 3362P 10k Trimpot             | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C118956.html      | 5                | $0.82 | $0.82 | $2.01   | $18.77               |
+| 3362P 100k Trimpot            | 3        | 3      | LCSC       | https://www.lcsc.com/product-detail/C118966.html      | 5                | $0.77 | $0.77 | $2.78   | $19.54               |
+| RK097 1M Vertical Pot         | 1        | 0      | Aliexpress | https://www.aliexpress.com/item/1005007278123055.html | 5                | $1.83 | NA    | $2.78   | $21.37               |
+| RK097 100k Vertical Pot       | 2        | 0      | Aliexpress | https://www.aliexpress.com/item/1005007278123055.html | 5                | $1.83 | NA    | $2.78   | $23.20               |
+| 10k NTC Thermistor            | 5        | 5      | LCSC       | https://www.lcsc.com/product-detail/C13879.html       | 10               | $0.44 | $0.44 | $3.22   | $23.64               |
+| TL074                         | 3        | 3      | LCSC       | https://www.lcsc.com/product-detail/C133542.html      | 1                | $0.69 | $2.08 | $5.30   | $24.33               |
+| AMS1117-2.5 SOT223            | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C12087.html       | 5                | $0.26 | $1.29 | $6.59   | $24.59               |
+| TC7660                        | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C640848.html      | 1                | $1.90 | $1.90 | $8.49   | $26.49               |
+| PJ301F Audio Jack             | 7        | 7      | Aliexpress | https://www.aliexpress.com/item/1005007344185064.html | 10               | $3.66 | $3.66 | $12.15  | $30.15               |
+| 2x8 2.54mm IDC                | 1        | 1      | LCSC       | https://www.lcsc.com/product-detail/C7430313.html     | 5                | $0.08 | $0.42 | $12.57  | $30.23               |
+| Aluminium Plate (100x200x2mm) | 1        | 1      | Aliexpress | www.aliexpress.com/item/1005007160296738.html         | 1                | $6.23 | $6.23 | $18.80  | $36.46               |
+| M3x18mm Bolt                  | 1        | 0      | Aliexpress | https://www.aliexpress.com/item/32810852732.html      | 50               | $6.43 | NA    | $18.80  | $42.89               |
+| M3 Hex Nut                    | 1        | 0      | Aliexpress | https://www.aliexpress.com/item/1005007593861199.html | 50               | $4.89 | NA    | $18.80  | $47.78               |
 
 | Totals                          | Cost   |
 |---------------------------------|--------|
